@@ -154,26 +154,26 @@ margin-top:15px;
 margin-right:20px;
 }
 
-.ecommerce, .banking, .crypto, .gaming{
+.ecommerce, .branding, .portfolio, .landing-page{
 width:100%;
 text-align:center;
 }
 
 
- .ecommerce img, .banking img, .crypto img, .gaming img{
+ .ecommerce img, .branding img, .portfolio img, .landing-page img{
 width:70px;
 height:auto;
 border-radius:50px;
 border:2px dotted coral;
 }
 
-.ecommerce .big, .crypto .big, .gaming .big, .banking .big{
+.ecommerce .big, .branding .big, .portfolio .big, .landing-page .big{
 font-size:20px;
 font-weight:bold;
 font-family:helvetica
 }
 
-.ecommerce .small, .crypto .small, .gaming .small, .banking .small{
+.ecommerce .small, .branding .small, .portfolio .small, .landing-page .small{
 font-size:18px;
 font-family:helvetica;
 }
@@ -234,6 +234,7 @@ font-size:19px;
 font-family:helvetica;
 color:white;
 }  
+
 
 
 .patronize .normal{
