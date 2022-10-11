@@ -20,7 +20,7 @@ button, i{
   background-color:#00203FFF;
  }
 
-.navigators{
+/* .navigators{
   padding-top:15px;
   display:inline-flex;
   justify-content:space-between;
@@ -28,28 +28,10 @@ button, i{
   width:100%;
   padding-bottom:10px;
   background-color:#00203FFF;
-}
+} */
 
-.navigators p{
-   margin-left:35px;
-   color:white;
-   font-weight:bold;
-   letter-spacing:1px;
-   font-family:helvetica
-}
-
-.navigators a, .navigators i{
-   text-decoration:none;
-   color:white;
-   font-size:19px;
-   }
-
-.navigators a:hover, .navigators i:hover{
-   text-decoration:underline;
-   color:coral;
-   text-decoration-color:white;
-   font-size:21px;
-}
+/* 
+ */
 
 .heading{
   display:inline-flex;
@@ -88,13 +70,13 @@ button, i{
  padding-right:15px;
 }
 
-.heading .absolute{
+/* .heading .absolute{
   position:absolute;
 
-}
+} */
 
 .heading img{
-  position:relative;
+
   width:50%;
   height:auto;
   margin-right:15px;
@@ -201,14 +183,14 @@ display:inline-flex;
 }
 
 .about img{
-width:50%;
+width:90%;
 height:auto;
 margin-left:20px;
 }
 
 
 .patronize img{
-width:50%;
+width:90%;
 height:auto;
 margin-right:15px;
 }
@@ -402,10 +384,34 @@ margin-top:30px;
 min-width:100px;
 }
 
-@media only screen and (min-width:601px) {
+@media only screen and (max-width:601px) {
 
 #navigate{
 display:none;
+}
+.webtype{
+  display: block;
+  flex-wrap: wrap;
+}
+.about{
+  display: block;
+  flex-wrap: wrap;
+}
+.patronize{
+  display: block;
+  flex-wrap: wrap;
+}
+.features{
+  display: block;
+  flex-wrap: wrap;
+}
+.button{
+  display: block;
+  flex-wrap: wrap;
+}
+.button{
+  display: block;
+  flex-wrap: wrap;
 }
 
 #navbar{
@@ -418,11 +424,12 @@ display:none
 @media only screen and (max-width:600px) {
 
 .about img,  .heading img,  .patronize img{
-display:none;
+display:block;
+flex-wrap: wrap;
 }
 
 .home, .con, .abt, .srv, .mode{
-display:none
+display:none;
 }
 
 }

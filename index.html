@@ -5,14 +5,45 @@
       <link rel="stylesheet" href="tunmbi.css">
       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <title>My first branding</title>
         </head>
     <body>
 
         <!------------------HEADER------------------------>
         
-              <div class="navigators">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#00203FFF;text-decoration-color: white;">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">TUNMBI[]BRAND</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">CONTACT ME</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">ABOUT ME</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">MY SERVICES</a>
+               </li>
+      
+               <li class="nav-item">
+                 <a class="nav-link" href="#">MODE</a>
+               </li>
+            
+                </ul>
+                <i id="power" class="fa-solid fa-power-off"></i>
+                        </div>
+         </div>
+       </nav>
+              <!-- <div class="navigators">
                 <p>TUNMBI[]BRAND</p>
                   <a class="home" href="./">Home</a>
                   <a class='con' href="./">Contact Me</a>
@@ -23,7 +54,7 @@
                   </div>
                </div>
             
-               <hr>
+               <hr> -->
 
 
             <div class="header">
@@ -37,7 +68,7 @@
              </div>
 
              
-                <img src="images/welcome 1.jpg">
+                <!-- <img src="images/welcome 1.jpg"> -->
 
             </div>
                
@@ -50,7 +81,7 @@
 
              <!---------------------------SECOND SECTION------------>
 
-             <p class="services">My Services</p>
+             <h1 class="services" style="text-align:center;">My Services</h1>
 
                 <div class="webtype">
                 
@@ -86,12 +117,12 @@
 
 
                 <!---------------------------THIRD SECTION------------>
-
-                <div class="about">
-                  <img src="images/web developer png.jpg">
-
+                <hr>
+              <h1 style="text-align: center;">About Me</h1>
+               <div class="about">
+                  <!-- <h1 style="text-align:center;">About Me</h1> -->
+                  <img src="images/tunmbi 3.JPG">
                   <div>
-                  <p class="colored">About Me</p>
                   <p class="normal">My Name is Tunmbi Adelowo..I hail from Ikirin,Osun-State,Nigeria
                      I'm a Frontend Website Developer..My Brand name is <span>Tunmbi[]Brand</span></p>
                    </div>
@@ -119,9 +150,10 @@
 
       
                       <!---------------------------FIFTH SECTION------------>
-                      
+                      <hr>
+                      <h1 style="text-align: center;">My Portfolio</h1>
                       <div class="features">
-                        
+                <!-- <h1 style="text-align:center; color:white;">My Portfolio</h1> -->
                         <div class="feature">
                            <img src="images/e commerce website .jpg">
                            <p class="big">Tunmbi[]brand</p>
@@ -129,26 +161,28 @@
                         </div>
 
                         <div class="feature">
-                           <img src="images/gaming website.jpg"> 
+                           <img src="images/branding.png"> 
                            <p class="big">Tunmbi[]brand</p>
                            <p class="small">I create Branding website for you within 1 month through coding</p>
                         </div>
 
                         <div class="feature">
-                           <img src="images/banking website.jpg">
+                           <img src="images/portfolio.jpg">
                            <p class="big">Tunmbi[]brand</p>
                            <p class="small">I create Portfolio website for you within 1 month through coding</p>
                         </div>
 
                         <div class="feature">
-                           <img src="images/bitcoin website.jpg">
+                           <img src="images/landing.jpg">
                            <p class="big">Tunmbi[]brand</p>
                            <p class="small">I create Landing Page website for you within 2 months through coding</p>
                         </div>
                          
                         </div>
-                                 
-                     <div class="btns2"><button class="exp">Explore</button> <button class="ord">Order</button> </div>
+                          <div class="button">
+                           <div class="btns2"><button class="exp">Explore</button> <button class="ord">Order</button> </div>
+                          </div>       
+                     
                             <!---------------------------FIFTH SECTION END------------>
 
                     
@@ -185,6 +219,8 @@
                                     <p class="tub">TUNMBI[]BRAND</p>
                                  </p>
                               </div>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+                              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> -->
                       </body>
                       </html>
