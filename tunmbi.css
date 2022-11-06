@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color:#f3f3f3;
+  background-color:#212529;
 }
 
 button, i{
@@ -127,6 +127,14 @@ font-weight:bold;
 font-family:helvetica;
 font-size:20px;
 }
+/* .bout{
+margin-left:35px;
+color:black;
+margin-top:20px;
+font-weight:bold;
+font-family:helvetica;
+font-size:20px;
+} */
 
 .webtype{
 display:grid;
@@ -161,13 +169,16 @@ font-family:helvetica;
 }
 
 .about{
-margin-top:60px;
+/* margin-top:60px; */
 padding-top:15px;
 background-color:#00203FFF;
-width:100%;
+/* width:100%; */
 padding-bottom:15px;
 justify-content:space-between;
 display:inline-flex;
+min-width:100px;
+margin-left:20px;
+margin-right:20px;
 }
 
 
@@ -183,9 +194,12 @@ display:inline-flex;
 }
 
 .about img{
-width:90%;
+width:30%;
 height:auto;
 margin-left:20px;
+}
+.about h1{
+color: white;
 }
 
 
@@ -196,12 +210,12 @@ margin-right:15px;
 }
 
 
-.about .colored{
+/* .about .colored{
 font-size:18px;
 font-family:helvetica;
 font-weight:bold;
 color:brown;
-}
+} */
 
 .patronize .colored{
 font-size:20px;
@@ -215,6 +229,7 @@ font-weight:bold;
 font-size:19px;
 font-family:helvetica;
 color:white;
+
 }  
 
 
@@ -245,6 +260,7 @@ color:white;
 padding-top:20px;
 margin-right:15px;
 padding-left:15px;
+
 }
 
 .patronize p{
@@ -426,6 +442,7 @@ display:none
 .about img,  .heading img,  .patronize img{
 display:block;
 flex-wrap: wrap;
+width: 60%;
 }
 
 .home, .con, .abt, .srv, .mode{
