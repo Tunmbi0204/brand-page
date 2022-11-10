@@ -17,20 +17,12 @@ button, i{
   width:100%;
   padding-bottom:20px;
   background-color:#00203FFF;
+  /* background-image:url('images/tunmbi\ 2.JPG'); */
+  /* padding-top:300px; */
+  /* padding-bottom:100px; */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
  }
-
-/* .navigators{
-  padding-top:15px;
-  display:inline-flex;
-  justify-content:space-between;
-  top:0;
-  width:100%;
-  padding-bottom:10px;
-  background-color:#00203FFF;
-} */
-
-/* 
- */
 
 .heading{
   display:inline-flex;
@@ -69,10 +61,6 @@ button, i{
  padding-right:15px;
 }
 
-/* .heading .absolute{
-  position:absolute;
-
-} */
 
 .heading img{
 
@@ -126,14 +114,7 @@ font-weight:bold;
 font-family:helvetica;
 font-size:20px;
 }
-/* .bout{
-margin-left:35px;
-color:black;
-margin-top:20px;
-font-weight:bold;
-font-family:helvetica;
-font-size:20px;
-} */
+
 
 .webtype{
 display:grid;
@@ -167,20 +148,6 @@ font-size:18px;
 font-family:helvetica;
 }
 
-.about{
-/* margin-top:60px; */
-padding-top:15px;
-background-color:#00203FFF;
-/* width:100%; */
-padding-bottom:15px;
-justify-content:space-between;
-display:inline-flex;
-min-width:100px;
-margin-left:20px;
-margin-right:20px;
-}
-
-
 .patronize{
 padding-top:15px;
 background-color:white;
@@ -192,41 +159,12 @@ justify-content:space-between;
 display:inline-flex;
 }
 
-.about img{
-width:30%;
-height:auto;
-margin-left:20px;
-}
-.about h1{
-color: white;
-}
-
-
-.patronize img{
-width:90%;
-height:auto;
-margin-right:15px;
-}
-
-
-
-
 .patronize .colored{
 font-size:20px;
 font-family:helvetica;
 font-weight:bold;
 
 }
-
-
-.about .normal{
-font-size:19px;
-font-family:helvetica;
-color:white;
-
-}  
-
-
 
 .patronize .normal{
 font-size:19px;
@@ -250,12 +188,6 @@ font-family:helvetica;
 color:white;
 }  
 
-.about p{
-padding-top:20px;
-margin-right:15px;
-padding-left:15px;
-
-}
 
 .patronize p{
 margin-left:20px;
@@ -403,10 +335,7 @@ display:none;
   display: block;
   flex-wrap: wrap;
 }
-.about{
-  display: block;
-  flex-wrap: wrap;
-}
+
 .patronize{
   display: block;
   flex-wrap: wrap;
